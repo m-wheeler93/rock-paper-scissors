@@ -1,0 +1,71 @@
+/* GOOGLE FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Ubuntu&display=swap");
+
+/* GLOBAL DEFAULTS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Ubuntu", "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	color: whitesmoke;
+	background-color: #202020;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo {
+	height: 9rem;
+	width: 9rem;
+}
+
+#logo > img {
+	width: 100%;
+}
+
+h1 {
+	width: 60%;
+	text-align: center;
+	margin: 3rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #30baff;
+}
+
+h2,
+h3 {
+	margin: 2rem auto;
+}
+
+button {
+	cursor: pointer;
+	height: 2rem;
+	width: 7rem;
+	margin: 1rem 2rem;
+	color: #30baff;
+	border: 1px solid #30baff;
+	background-color: transparent;
+	transition: all 300ms linear;
+}
+
+button:hover {
+	transform: scale(1.1);
+	background: #000;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+	#btn-container {
+		display: flex;
+		flex-direction: column;
+	}
+}
