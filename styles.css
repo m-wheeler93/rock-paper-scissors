@@ -64,6 +64,14 @@ button:active {
 
 /* MEDIA QUERIES */
 @media (max-width: 800px) {
+	#logo {
+		height: 4rem;
+		width: 4rem;
+	}
+
+	h1 {
+		margin: 0;
+	}
 	#btn-container {
 		display: flex;
 		flex-direction: column;
